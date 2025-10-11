@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "研究经历"
+permalink: /research-experience/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="wordwrap">这里展示我的主要研究项目和经历，包括论文、报告和相关文档。</div>
+
+{% for post in site.research_experience reversed %}
+  {% include archive-single-research.html %}
+{% endfor %}
