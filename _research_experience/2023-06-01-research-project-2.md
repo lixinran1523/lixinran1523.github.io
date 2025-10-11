@@ -1,36 +1,36 @@
 ---
-title: "Natural Language Processing in Intelligent Question Answering Systems"
+title: "Statistical Modeling of Student Performance in Online Learning"
 collection: research_experience
 category: research
 permalink: /research_experience/2023-06-01-research-project-2
-excerpt: 'Research on intelligent question answering systems based on Transformer architecture, focusing on Chinese semantic understanding and multi-turn dialogue processing.'
+excerpt: 'This undergraduate research project applies statistical modeling techniques to analyze student performance data in online learning environments and identify factors affecting academic success.'
 date: 2023-06-01
-venue: 'Shanghai Jiao Tong University, AI Research Institute'
-type: 'Research Project'
+venue: 'University of Science and Technology of China, School of Mathematical Sciences'
+type: 'Undergraduate Research Project'
 duration: 'Jun 2023 - Dec 2023'
-supervisor: 'Prof. Wang'
+supervisor: 'Prof. Liu'
 paperurl: '/files/paper2.pdf'
 ---
 
-This project is dedicated to developing an intelligent question answering system that can understand Chinese semantics and conduct multi-turn dialogues. By combining pre-trained language models with knowledge graphs, the system can provide accurate and coherent answers.
+This undergraduate research project focuses on analyzing student performance data in online learning environments. By applying statistical modeling techniques, we identified key factors that influence academic success and developed predictive models to help improve educational outcomes.
 
 ## Research Content
 
-1. **Semantic Understanding**: Chinese semantic representation learning based on BERT model
-2. **Knowledge Fusion**: Integration of external knowledge graphs with language models
-3. **Dialogue Management**: Context understanding and state management for multi-turn dialogues
-4. **System Optimization**: Model compression and inference acceleration
+1. **Data Collection**: Gathered comprehensive student performance data from online learning platforms
+2. **Statistical Analysis**: Applied regression analysis and hypothesis testing to identify significant factors
+3. **Model Development**: Built predictive models using machine learning algorithms
+4. **Visualization**: Created interactive dashboards to visualize learning patterns and trends
 
 ## Technical Implementation
 
-- **Pre-trained Models**: BERT, RoBERTa, GPT-2
-- **Knowledge Graph**: Neo4j, SPARQL
-- **Dialogue System**: Rasa, Dialogflow
-- **Evaluation Metrics**: BLEU, ROUGE, Human Evaluation
+- **Statistical Software**: R, Python
+- **Data Analysis**: Pandas, NumPy, Scipy
+- **Machine Learning**: Scikit-learn, XGBoost
+- **Visualization**: Matplotlib, Seaborn, Tableau
 
 ## Project Outcomes
 
-- Built a Chinese Q&A dataset containing 500,000 question-answer pairs
-- Developed a complete intelligent Q&A system prototype
-- Achieved SOTA performance on multiple benchmark tests
-- Received best paper nomination at international conference
+- Analyzed data from 10,000+ students across multiple courses
+- Identified key factors affecting student performance (engagement time, assignment completion, etc.)
+- Developed predictive models with 78% accuracy for performance prediction
+- Presented findings at undergraduate research conference

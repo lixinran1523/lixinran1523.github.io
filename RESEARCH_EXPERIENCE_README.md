@@ -1,7 +1,8 @@
 # Research Experience Section Usage Guide
 
 ## Overview
-I have added a new "Research Experience" section to your Jekyll academic website for showcasing your research projects and publications.
+
+This "Research Experience" section showcases Li Xinran's undergraduate research projects and publications during her statistics studies at University of Science and Technology of China (2022-2026).
 
 ## New Files and Features
 
@@ -15,10 +16,10 @@ I have added a new "Research Experience" section to your Jekyll academic website
 - `_includes/archive-single-research.html`: Specialized template for research experience display
 
 ### 3. Sample Files
-Created 3 sample research experience files:
-- `2024-01-01-research-project-1.md`: Deep Learning Applications in Medical Image Diagnosis
-- `2023-06-01-research-project-2.md`: Natural Language Processing in Intelligent Question Answering Systems
-- `2023-03-01-research-project-3.md`: Computer Vision Applications in Autonomous Driving
+Created 3 sample undergraduate research experience files:
+- `2024-01-01-research-project-1.md`: Statistical Analysis of COVID-19 Data Using Machine Learning
+- `2023-06-01-research-project-2.md`: Statistical Modeling of Student Performance in Online Learning
+- `2023-03-01-research-project-3.md`: Bayesian Statistics in Financial Risk Assessment
 
 ## How to Add New Research Experience
 
@@ -36,8 +37,8 @@ category: research
 permalink: /research_experience/filename
 excerpt: 'Project description'
 date: YYYY-MM-DD
-venue: 'Institution Name'
-type: 'Project Type'
+venue: 'University of Science and Technology of China, School of Mathematical Sciences'
+type: 'Undergraduate Research Project'
 duration: 'Project Duration'
 supervisor: 'Supervisor'
 paperurl: '/files/paper.pdf'
@@ -70,4 +71,4 @@ If you need to adjust the styling of the research experience page, you can:
 3. Use YYYY-MM-DD date format
 4. Each research experience entry will automatically generate a separate page
 
-You can now visit the `/research-experience/` page to view the new Research Experience section!
+You can now visit the `/research-experience/` page to view Li Xinran's Research Experience section showcasing her undergraduate research projects in statistics!
