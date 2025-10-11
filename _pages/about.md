@@ -7,17 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year undergraduate student from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) in the [ACM Class](https://acm.sjtu.edu.cn/home). My research interest lies in designing efficient robot learning system, reinforcement learning and imitation learning.
+I'm Li Xinran, a third year undergraduate student majoring in Statistics at [University of Science and Technology of China](https://www.ustc.edu.cn/) (2022-2026). My research interests lie in statistical modeling, data analysis, machine learning, and their applications in real-world problems.
 
-I am currently a member of [RHOS Lab](https://mvig-rhos.com/) coadvised by Prof. [Cewu Lu](https://www.mvig.org/) and Prof. [Yonglu Li](https://dirtyharrylyl.github.io/).
+I am passionate about applying statistical methods to solve complex problems in various fields, including public health, education, and finance. Through my undergraduate research projects, I have gained experience in Bayesian statistics, time series analysis, and predictive modeling.
 
-Feel free to contact me in any possible way.
+Feel free to contact me if you're interested in collaborating or have any questions about my research!
 
-Hobbies
-===
+## Hobbies
 
-Beside research interest, I am always open to new experience and activity.
+Beyond my academic pursuits, I enjoy exploring new experiences and activities.
 
-I'm fond of a wide variety of sports like soccer and basketball. Reading and cooking also largely intrigues me.
+I'm particularly fond of data visualization and creating interactive dashboards to tell compelling stories with data. I also enjoy reading about the latest developments in statistics and machine learning, as well as participating in data science competitions.
 
-I was trained as a professional athlete in my junior years and that experience meant a lot to me.
+In my free time, I like to practice yoga and go hiking, which help me maintain a good work-life balance. I also enjoy cooking and trying new recipes from different cultures.
