@@ -40,15 +40,15 @@
 
     {% if post.collection == 'research_experience' %}
       <p class="page__meta">
-        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 项目时间:</strong> {{ post.duration | default: post.date | date: "%Y" }}
+        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Duration:</strong> {{ post.duration | default: post.date | date: "%Y" }}
         {% if post.venue %}
-          <br><strong><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> 研究机构:</strong> {{ post.venue }}
+          <br><strong><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Institution:</strong> {{ post.venue }}
         {% endif %}
         {% if post.supervisor %}
-          <br><strong><i class="fa fa-fw fa-user" aria-hidden="true"></i> 指导老师:</strong> {{ post.supervisor }}
+          <br><strong><i class="fa fa-fw fa-user" aria-hidden="true"></i> Supervisor:</strong> {{ post.supervisor }}
         {% endif %}
         {% if post.type %}
-          <br><strong><i class="fa fa-fw fa-tag" aria-hidden="true"></i> 项目类型:</strong> {{ post.type }}
+          <br><strong><i class="fa fa-fw fa-tag" aria-hidden="true"></i> Type:</strong> {{ post.type }}
         {% endif %}
       </p>
     {% elsif post.date %}
@@ -58,38 +58,17 @@
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> 阅读更多</a></strong></p></p>
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    <!-- 研究经历相关的下载链接 -->
+    <!-- Research Experience Paper Download Link -->
     <div class="research-links">
-      {% if post.paperurl and post.reporturl and post.slidesurl %}
-        <p>
-          <a href="{{ post.paperurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> 下载论文</a>
-          <a href="{{ post.reporturl }}" class="btn btn--primary btn--small"><i class="fa fa-file-text-o" aria-hidden="true"></i> 下载报告</a>
-          <a href="{{ post.slidesurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> 下载幻灯片</a>
+      {% if post.paperurl %}
+        <p style="margin-top: 15px;">
+          <a href="{{ post.paperurl }}" class="btn btn--success btn--large" style="font-size: 16px; padding: 12px 24px; font-weight: bold;">
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> View Paper
+          </a>
         </p>
-      {% elsif post.paperurl and post.reporturl %}
-        <p>
-          <a href="{{ post.paperurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> 下载论文</a>
-          <a href="{{ post.reporturl }}" class="btn btn--primary btn--small"><i class="fa fa-file-text-o" aria-hidden="true"></i> 下载报告</a>
-        </p>
-      {% elsif post.paperurl and post.slidesurl %}
-        <p>
-          <a href="{{ post.paperurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> 下载论文</a>
-          <a href="{{ post.slidesurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> 下载幻灯片</a>
-        </p>
-      {% elsif post.reporturl and post.slidesurl %}
-        <p>
-          <a href="{{ post.reporturl }}" class="btn btn--primary btn--small"><i class="fa fa-file-text-o" aria-hidden="true"></i> 下载报告</a>
-          <a href="{{ post.slidesurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> 下载幻灯片</a>
-        </p>
-      {% elsif post.paperurl %}
-        <p><a href="{{ post.paperurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> 下载论文</a></p>
-      {% elsif post.reporturl %}
-        <p><a href="{{ post.reporturl }}" class="btn btn--primary btn--small"><i class="fa fa-file-text-o" aria-hidden="true"></i> 下载报告</a></p>
-      {% elsif post.slidesurl %}
-        <p><a href="{{ post.slidesurl }}" class="btn btn--primary btn--small"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> 下载幻灯片</a></p>
       {% endif %}
     </div>
 

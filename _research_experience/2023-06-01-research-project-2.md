@@ -1,38 +1,36 @@
 ---
-title: "自然语言处理在智能问答系统中的应用"
+title: "Natural Language Processing in Intelligent Question Answering Systems"
 collection: research_experience
 category: research
 permalink: /research_experience/2023-06-01-research-project-2
-excerpt: '基于Transformer架构的智能问答系统研究，专注于中文语义理解和多轮对话处理。'
+excerpt: 'Research on intelligent question answering systems based on Transformer architecture, focusing on Chinese semantic understanding and multi-turn dialogue processing.'
 date: 2023-06-01
-venue: '上海交通大学人工智能研究院'
-type: '研究项目'
-duration: '2023.06 - 2023.12'
-supervisor: '王教授'
+venue: 'Shanghai Jiao Tong University, AI Research Institute'
+type: 'Research Project'
+duration: 'Jun 2023 - Dec 2023'
+supervisor: 'Prof. Wang'
 paperurl: '/files/paper2.pdf'
-reporturl: '/files/research_report_2.pdf'
-slidesurl: '/files/slides2.pdf'
 ---
 
-本项目致力于开发一个能够理解中文语义并进行多轮对话的智能问答系统。通过结合预训练语言模型和知识图谱，系统能够提供准确、连贯的回答。
+This project is dedicated to developing an intelligent question answering system that can understand Chinese semantics and conduct multi-turn dialogues. By combining pre-trained language models with knowledge graphs, the system can provide accurate and coherent answers.
 
-## 研究内容
+## Research Content
 
-1. **语义理解**: 基于BERT模型的中文语义表示学习
-2. **知识融合**: 将外部知识图谱与语言模型相结合
-3. **对话管理**: 实现多轮对话的上下文理解和状态管理
-4. **系统优化**: 模型压缩和推理加速
+1. **Semantic Understanding**: Chinese semantic representation learning based on BERT model
+2. **Knowledge Fusion**: Integration of external knowledge graphs with language models
+3. **Dialogue Management**: Context understanding and state management for multi-turn dialogues
+4. **System Optimization**: Model compression and inference acceleration
 
-## 技术实现
+## Technical Implementation
 
-- **预训练模型**: BERT, RoBERTa, GPT-2
-- **知识图谱**: Neo4j, SPARQL
-- **对话系统**: Rasa, Dialogflow
-- **评估指标**: BLEU, ROUGE, 人工评估
+- **Pre-trained Models**: BERT, RoBERTa, GPT-2
+- **Knowledge Graph**: Neo4j, SPARQL
+- **Dialogue System**: Rasa, Dialogflow
+- **Evaluation Metrics**: BLEU, ROUGE, Human Evaluation
 
-## 项目成果
+## Project Outcomes
 
-- 构建了包含50万对问答的中文数据集
-- 开发了完整的智能问答系统原型
-- 在多个基准测试中达到SOTA性能
-- 获得国际会议最佳论文提名
+- Built a Chinese Q&A dataset containing 500,000 question-answer pairs
+- Developed a complete intelligent Q&A system prototype
+- Achieved SOTA performance on multiple benchmark tests
+- Received best paper nomination at international conference
